@@ -1,0 +1,23 @@
+@media (max-width: 900px) {
+    .nav__list {
+        display: none;
+    }
+
+    .nav__responfont {
+        display: block;
+        font-size: 1.8rem;
+        font-weight: 400;
+        padding: 10px;
+        background-color: #c02ed1;
+        color: #fff;
+        cursor: pointer;
+    }
+
+    .nav {
+        justify-content: space-between;
+        padding: 0 38px;
+    }
+
+
+
+}
