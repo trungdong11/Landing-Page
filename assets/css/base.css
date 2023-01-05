@@ -29,3 +29,122 @@ html{
 .mt_48 {
     margin-top: 40px;
 }
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(6px);
+    }
+    to {
+        opacity: 1;
+        /* transform: translateY(0px); */
+    }
+}
+
+@keyframes imgAnima {
+    0% {
+        transform: translateY(0px);
+    }
+    10% {
+        transform: translateY(4px);
+    }
+    25% {
+        transform: translateY(8px);
+    }
+    35%{
+        transform: translateY(4px);
+    }
+    55%{
+        transform: translateY(0px);
+    }
+    70% {
+        transform: translateY(-4px);
+    }
+    80% {
+        transform: translateY(-8px);
+    }
+    90% {
+        transform: translateY(-4px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+
+}
+
+.btn-38 {
+    -webkit-tap-highlight-color: transparent;
+    -webkit-appearance: button;
+    background-color: #9d55e2;
+    background-image: none;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+    line-height: 16px;
+    margin: 0;
+    -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
+    padding: 0;
+  }
+
+  /* button */
+  .btn-38:disabled {
+    cursor: default;
+  }
+  .btn-38:-moz-focusring {
+    outline: auto;
+  }
+  .btn-38 svg {
+    display: block;
+    vertical-align: middle;
+  }
+  .btn-38 [hidden] {
+    display: none;
+  }
+  .btn-38 {
+    /* border: 1px solid; */
+    border: none;
+    box-sizing: border-box;
+    display: block;
+    overflow: hidden;
+    padding: 20px 29px;
+    position: relative;
+    border-radius: 60px;
+  }
+  .btn-38 .new,
+  .btn-38 .old span {
+    font-weight: 600;
+    transition: transform 0.2s;
+  }
+  .btn-38 .new {
+    display: block;
+    transform: scale(0);
+  }
+  .btn-38:hover .new {
+    transform: scale(1);
+  }
+  .btn-38 .old,
+  .btn-38 .old span {
+    inset: 0;
+    position: absolute;
+  }
+  .btn-38 .old span {
+    background: #7186f5;
+    color: #fff;
+    display: block;
+    display: grid;
+    place-items: center;
+  }
+  .btn-38 .old span:first-child {
+    -webkit-clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+    clip-path: polygon(0 0, 51% 0, 51% 100%, 0 100%);
+  }
+  .btn-38 .old span:nth-child(2) {
+    -webkit-clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+    clip-path: polygon(50% 0, 100% 0, 100% 100%, 50% 100%);
+  }
+  .btn-38:hover .old span:first-child {
+    transform: translateX(-100%);
+  }
+  .btn-38:hover .old span:nth-child(2) {
+    transform: translateX(100%);
+  }
