@@ -274,4 +274,8 @@
     .content__premium {
         padding-bottom: 16px;
     }
+
+    .slider__create--header {
+        line-height: 70px;
+    }
 }
