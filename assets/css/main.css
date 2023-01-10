@@ -11,10 +11,16 @@
 }
 
 .nav {
-    height: 106px;
+    /* height: 106px; */
     display: flex;
     align-items: center;
+    width: 100%;
     justify-content: space-around;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 6;
+    padding: 26px 0;
 }
 
 .nav__list {
@@ -335,8 +341,9 @@
 .header__content {
     display: flex;
     justify-content: space-around;
-    padding: 80px 80px 300px 80px;
+    padding: 160px 80px 300px 80px;
     align-items: center;
+    z-index: 2;
 }
 
 .slider__container--create {

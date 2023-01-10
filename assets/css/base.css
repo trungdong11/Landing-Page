@@ -148,3 +148,36 @@ html{
   .btn-38:hover .old span:nth-child(2) {
     transform: translateX(100%);
   }
+
+  /* nav js */
+  .nav.sticky {
+    position: fixed;
+    background-color: #fff;
+    box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
+    animation: navScroll 1s ease-in-out;
+  }
+
+  .sticky .nav__item--font {
+    background-color: var(--primary__color);
+    color: #fff !important;
+  }
+
+  .sticky .nav__item--font:hover {
+    /* border: 2px solid var(--primary__color); */
+    opacity: 0.7;
+  }
+
+  .sticky .nav__item {
+    color: #000;
+  }
+
+  @keyframes navScroll {
+    from {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0px);
+    }
+}
