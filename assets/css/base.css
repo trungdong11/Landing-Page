@@ -151,7 +151,7 @@ html{
 
   /* nav js */
   .nav.sticky {
-    position: fixed;
+    position: fixed;  
     background-color: #fff;
     box-shadow: rgba(33, 35, 38, 0.1) 0px 10px 10px -10px;
     animation: navScroll 1s ease-in-out;
