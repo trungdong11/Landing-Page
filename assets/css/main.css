@@ -633,7 +633,299 @@
 .screenshot__link--img {
     width: 275px;
     height: auto;
+}
 
+/* testimonials */
+.content__tes {
+    display: flex;
+    padding: 155px 0 104px 0;
+}
+
+.shape__img {
+    position: relative;
+    background-image: url(	https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/Group-3481.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* width: 735px; */
+    max-width: 100%;
+    height: 500px;
+    padding: 10px;
+}
+
+.tes__shape {
+    width: 50%;
+    padding-left: 100px;
+    padding-right: 30px;
+}
+
+.shape__img--item{
+    padding: 80px;
+    background-image: url(https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/Shape.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.shape__img--item1 {
+    position: absolute;
+    left: 20%;
+    top: -20%;
+}
+
+.shape__img--item2 {
+    right: -5%;
+    bottom: 19%;
+    position: absolute;
+}
+
+.shape__img--item3 {
+    left: 5%;
+    bottom: 19px;
+    position: absolute;
+ 
+}
+
+.shape__item--body {
+    display: inline-block;
+    text-align: center;   
+    font-size: 1.6rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.shape__item--body h3 {
+    color: #7186f5;
+    font-size: 36px;
+    padding-bottom: 18px;
+    font-weight: 600;
+    opacity: 1;
+}
+
+.shape__img--quantity {
+    /* color: red; */
+}
+
+.tes__user {
+    width: 50%;
+    padding-right: 100px;
+}
+
+.tes__header {
+    font-size: 1.6rem;
+    color: var(--primary__color);
+    margin-bottom: 8px;
+    font-weight: 500;
+}
+
+.tes__subhead {
+    font-size: 32px;
+    line-height: 38px;
+    font-weight: 600;
+
+}
+
+/* testimonials user */
+.user__body {
+    margin-top: 30px;
+    background-image: url(https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/quote-icon.png);
+    background-position: top left;
+    background-repeat: no-repeat;
+    background-size: auto;
+    max-width: 100%;
+}
+
+.tab__content {
+    margin-top: 40px;
+}
+
+.tab__pane {
+    display: none;
+}
+
+.tab__pane.active {
+    display: block;
+    /* transition: left 0.5s ease-in-out; */
+    animation: testimon 0.5s ease-in-out;
+}
+
+.pane__font {
+    text-align: right;
+}
+
+.pane__font i {
+    font-size: 1.7rem;
+    padding: 0 2px;
+}
+
+.pane__font--color {
+    color: #ffc107;
+}
+
+.pane__content {
+    margin-top: 40px;
+    font-size: 1.8rem;
+    color: #505056;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+.pane__user {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.user__name {
+    font-size: 1.8rem;
+    
+}
+
+.user__job {
+    font-size: 1.7rem;
+    color: #505050;
+    margin-top: 16px;
+}
+
+.tabs {
+    margin-top: 30px;
+    display: flex;
+}
+
+.tab__item {
+    width: 36px;
+    border-bottom: 6px solid #2b70fa;
+    opacity: 0.4;
+    cursor: pointer;
+    transition: all 0.5s ease;
+    border-radius: 5px;
+    margin: 0 4px;
+}
+
+.tab__item.active {
+    opacity: 0.8;
+}
+
+.content__price {
+    padding: 110px 0 89px 0;
+    background-image: url(https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/Pricing-bg-Copy.jpg);
+}
+
+.content__price--body {
+    margin-top: 120px;
+    display: flex;
+    padding: 0 120px;
+}
+
+.price__item {
+    width: 33.333%;
+    background-color: #fff;
+    box-shadow:rgb(0 0 0 / 0.08) 0px 0px 10px 0px;
+    border-radius: 5px;
+    margin-left: 16px;
+    margin-right: 16px;
+    padding: 20px 20px 0 20px;  
+    height: auto;
+    transition: top ease-in 0.1s;
+    top: 0;
+}
+
+.price__item:hover {
+    top: -12px;
+    position: relative;
+}
+
+.price__item--head {
+    margin: 0;
+    background-image: linear-gradient(45deg,#bf2fd2 0%,#7b7bf1 100%);
+    border-radius: 5px;
+    padding: 59px 0 23px;
+    text-align: center;
+    position: relative;
+}
+
+.price__item--header {
+    font-size: 20px;
+    color: #ffff;
+    
+}
+
+.price__item--cost {
+    font-size: 30px;
+    color: #fff;
+    padding-top: 30px;
+    font-weight: 600;
+}
+
+.cost__current {
+    font-size: 20px;
+    color: #ffff;
+}
+
+.price__item--content {
+    padding-top: 26px;
+    margin: 0 40px;
+    text-align: center;
+}
+
+.price__item--content p {
+    font-size: 1.6rem;
+    color: #7a7a7a;
+    font-weight: 400;
+    padding-top: 24px;
+}
+
+.price__item--button {
+    margin: 44px 0 36px 0;
+    text-align: center;
+}
+
+.price__item--btn {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 60px;
+    color: #101010;
+    background-color: #fff;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #7186f5;
+    border-radius: 50px;
+    width: 160px;
+    height: 60px;
+    cursor: pointer;
+}
+
+.active--btn1:hover {
+    background-color: #7186f5;
+    color: #fff;
+}
+
+.active--btn2 {
+    background-color: #7186f5;
+    color: #fff;
+}
+
+.price__item--middle {
+    margin-top: -40px;
+}
+
+.price__item--popular {
+    position: absolute;
+    color: #c02ed1;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: #f1e3fb;
+    border-radius: 30px;
+    /* margin: -6px 0 0; */
+    margin-left: 84px;
+    padding: 17px 26px;
+
+}
+
+.content__partner {
+    padding: 120px 0;
+    
 }
 
 #footer {
