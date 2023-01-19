@@ -925,11 +925,383 @@
 
 .content__partner {
     padding: 120px 0;
-    
+    height: 1000px;
+}
+
+.content__partner--body {
+    padding: 8px 120px;
+    display: flex;
+}
+
+.partner__item {
+    width: 33.333%;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 60px;
+    padding-bottom: 30px;
+}
+
+.partner__item--img {
+    max-width: 100%;
+    height: auto;
+    padding: 10px;
+    background-color: #fff;
+    margin-bottom: 0;
+}
+
+
+.partner__wrap {
+    position: absolute;
+    margin: 0 10px -40px 0;
+    z-index: 1;
+    background: #fff;
+    width: calc(100% - 30px);
+    padding: 40px;
+    /* right: 0; */
+    /* top: 380px; */
+    bottom: 0;
+    transition: .3s;
+    text-align: center;
+}
+
+.partner__wrap--second {
+    margin-top: 12px;
+}
+
+.partner__wrap--second a i{
+    font-size: 30px;
+    background-color: #fff;
+    line-height: 50px;
+    text-align: center;
+    margin: 0 10px;
+    color: #010101;
+    box-shadow: #0000 0px 3px 20px 0px;
+}
+
+.wrap__name {
+    font-size: 22px;
+    margin: 0 0 8px;
+}
+
+.wrap__des {
+    font-size: 16px;
+    margin-top: 8px;
+    color: #616161;
+}
+
+.content__down {
+    background-image: url(https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/Shape-1.jpg);
+    background-position: center center;
+    background-repeat: repeat;
+    background-size: cover;
+    padding: 112px 120px 98px 120px;
+    display: flex;
+    align-items: center;
+}
+
+.down__body {
+    width: 50%;
+    margin: 0 16px;
+}
+
+.down__image {
+    background-image: url(../img/download-3.jpg);
+    /* background-position: center center;
+    background-repeat: repeat;
+    background-size: cover; */
+    height: auto;
+    max-width: 100%;
+}
+
+.down__header {
+    font-size: 32px;
+    color: #fff;
+    text-align: left;
+    font-weight: 700;
+    line-height: 48px;
+}
+
+.down__text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-top: 18px;
+    color: #ffff;
+    font-weight: 400;
+}
+
+.down__click {
+    display: flex;
+    margin-top: 32px;
+}
+
+.down__btn {
+    padding: 21px 21px 16px;
+    background-color: #fff;
+    border-radius: 60px;
+    outline: none;
+    border: 1px solid transparent;
+    cursor: pointer;
+}
+
+.down__btn i {
+    margin-right: 4px;
+}
+
+.down__btn--1 i,
+.down__btn--1 span{
+    color: #000;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.down__btn--2 {
+    background-color: transparent;
+    border: 1px solid #fff;
+    margin-left: 28px;
+}
+
+.down__btn--2 i,
+.down__btn--2 span{
+    color: #fff;
+    font-size: 1.6rem;
+    font-weight: 600;
+}
+
+.down__btn--1:hover {
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+}
+
+.down__btn--1:hover i,
+.down__btn--1:hover span {
+    color: #fff;
+}
+
+.down__btn--2:hover {
+    background-color: #fff;
+    border: 1px solid transparent;
+}
+
+.down__btn--2:hover i,
+.down__btn--2:hover span {
+    color: #000;
+}
+
+/* content new */
+.content__new {
+    background-image: url(../img/new-1.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.new__body {
+    margin-top: 32px;
+    display: flex;
+    padding: 0 120px;
+    justify-content: space-between;
+}
+
+.new__item {
+    width: 370px;
+}
+
+.new__item--photo {
+    overflow: hidden;
+    border-radius: 7px;
+}
+
+.new__item--content:hover img
+{
+    transform: scale(1.2);
+}
+.new__item--photo:hover img {
+    transform: scale(1.2);
+}
+
+.new__img {
+    border-radius: 7px;
+    width: 100%;
+    display: block;
+    transition: transform .5s ease;
+}
+
+.new__item--content {
+    overflow: hidden;
+}
+
+.new__container {
+    display: flex;
+    margin-top: 12px;
+}
+
+.new__container--small {
+    margin-right: 24px;
+
+}
+
+.new__container--small i {
+    font-size: 1.5rem;
+    color: rgb(192 46 209);
+    margin-right: 2px;
+}
+
+.new__container--small span {
+    color: rgb(97 97 97);
+    line-height: 28px;
+    font-size: 1.6rem;
+    font-weight: 400;
+}
+
+.new__description {
+    font-size: 2rem;
+    line-height: 28px;
+    color: rgb(14 17 51);
+    font-weight: 600;
+    margin-top: 12px;
+}
+
+.new__description:hover {
+    cursor: pointer;
+    color: var(--primary__color);
 }
 
 #footer {
+
+}
+
+.footer__container {
+    background-color: #eef1f6;
+    background-image: url(https://tf.quomodosoft.com/appie/wp-content/uploads/2022/10/footer-background-shape-1.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 110px 100px 105px 100px;
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-around;
+}
+
+.footer__logo {
+    width: 20%;
+    padding: 10px;
+}
+
+.footer__logo--text {
+    color: #fff;
+    font-size: 1.5rem;
+    margin-top: 32px;
+    font-weight: 400;
+    margin-bottom: 32px;
+    line-height: 22px;
+}
+
+.footer__link {
+    width: 20%;
+    padding: 10px;
+}
+
+.footer__link--header {
+    font-size: 20px;
+    color: #fff;
+}
+
+.footer__link--item {
+    display: flex;
+    list-style-type: none;
+    text-decoration: none;
+    padding: 8px 0;
+    align-items: center;
+    font-size: 1.5rem;
+    color: #fff;
+    font-weight: 400;
+}
+
+.mb--24 {
+    margin-bottom: 24px;
+}
+
+.footer__link--item i {
+    margin-right: 8px;
+    font-size: 10px;
+    color: #5d48df;
+}
+
+.footer__link--item:hover span {
+    color: #7186f5;
+}
+
+.footer__contact {
+    list-style: none;
+}
+
+.footer__contact--item {
+    display: block;
+    padding: 8px 0;
+    font-size: 1.5rem;
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer__contact--item i {
+    font-size: 1.2rem;
+    color: #7186f5;
+    margin-right: 4px;
+}
+
+.footer__contact--input {
+    display: block;
+    margin-top: 28px;
+    padding: 12px;
+    font-size: 1.4rem;
+    border-radius: 4px;
+    outline: none;
+    border: none;
+}
+
+.footer__contact--btn {
+    font-size: 1.4rem;
+    color: #fff;
+    padding: 12px 70px;
+    text-align: center;
+    border-radius: 4px;
+    background-color: #7186f5;
+    margin-top: 12px;
+    border: none;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.footer__root {
+    background-color: #091139;
+    padding: 28px 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__root--text {
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 300;
+}
+
+.footer__root--privacy {
+    display: flex;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.root__privacy {
+    margin-right: 28px;
     
 }
+
+
+
 
 
