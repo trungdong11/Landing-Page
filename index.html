@@ -402,13 +402,24 @@
             <div class="content__screenshot">
                 <div class="screenshot__header">App Screenshots</div>
                 <div class="screenshot__subhead">Creative & Beautiful Interface</div>
-                <div class="screenshot__body">
-                    <div class="screenshot__list">
-                        <a href="" class="screenshot__link"><img src="./assets/img/screen-1.png" alt="" class="screenshot__link--img"></a>
-                        <a href="" class="screenshot__link"><img src="./assets/img/screen-2.png" alt="" class="screenshot__link--img"></a>
-                        <a href="" class="screenshot__link"><img src="./assets/img/screen-3.png" alt="" class="screenshot__link--img"></a>
-                        <a href="" class="screenshot__link"><img src="./assets/img/screen-4.png" alt="" class="screenshot__link--img"></a>
+                <div class="screenshot__container">
+                    <button class="screenshot__btn screenshot__btn--left" onclick="scrollr()"><i class="fa-solid fa-angles-left"></i></button>
+                    <div class="screenshot__body">
+                        <div class="screenshot__list">
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-1.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-2.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-3.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-4.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-5.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-1.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-2.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-3.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-4.png" alt="" class="screenshot__link--img"></a>
+                            <a href="" class="screenshot__link"><img src="./assets/img/screen-5.png" alt="" class="screenshot__link--img"></a>
+
+                        </div>
                     </div>
+                    <button class="screenshot__btn screenshot__btn--right" onclick="scrolll()"><i class="fa-solid fa-angles-right"></i></button>
                 </div>
             </div>
 
@@ -512,7 +523,7 @@
             <!-- pricing -->
             <div class="content__price">
                 <h3 class="premium__name">Our Pricing</h3>
-                <h1 class="premium__subname">Our Best Pricing Plan</h1>
+                <h1 class="premium__subname content__price--res">Our Best Pricing Plan</h1>
                 <div class="content__price--body">
                     <div class="price__item">
                         <div class="price__item--head">
@@ -570,48 +581,55 @@
                 <h3 class="premium__name">Our team</h3>
                 <h1 class="premium__subname">Creative Team Member</h1>
                 <div class="content__partner--body">
-                    <div class="partner__item">
-                        <img class="partner__item--img" src="./assets/img/partner-1.png" alt="">
-                        <div class="partner__wrap">
-                            <div class="partner__wrap--first">
-                                <h4 class="wrap__name">Deniella Rhodes</h4>
-                                <p class="wrap__des">CEO of Saasmash</p>
-                            </div>
-                            <div class="partner__wrap--second">
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a class="pb--20" href=""><i class="fa-brands fa-invision"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="partner__item">
-                        <img class="partner__item--img" src="./assets/img/partner-1.png" alt="">
-                        <div class="partner__wrap">
-                            <div class="partner__wrap--first">
-                                <h4 class="wrap__name">Deniella Rhodes</h4>
-                                <p class="wrap__des">CEO of Saasmash</p>
-                            </div>
-                            <div class="partner__wrap--second">
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-invision"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <div class="partner__item--body">
+                        <div class="partner__item">
+                            <img class="partner__item--img" src="./assets/img/partner-1.png" alt="">
+                            <div class="partner__wrap">
+                                <div class="partner__wrap--first">
+                                    <h4 class="wrap__name">Deniella Rhodes</h4>
+                                    <p class="wrap__des">CEO of Saasmash</p>
+                                </div>
+                                <div class="partner__wrap--second">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a class="pb--20" href=""><i class="fa-brands fa-invision"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    <div class="partner__item">
-                        <img class="partner__item--img" src="./assets/img/partner-1.png" alt="">
-                        <div class="partner__wrap">
-                            <div class="partner__wrap--first">
-                                <h4 class="wrap__name">Deniella Rhodes</h4>
-                                <p class="wrap__des">CEO of Saasmash</p>
-                            </div>
-                            <div class="partner__wrap--second">
-                                <a href=""><i class="fa-brands fa-facebook"></i></a>
-                                <a href=""><i class="fa-brands fa-invision"></i></a>
-                                <a href=""><i class="fa-brands fa-twitter"></i></a>
+                    <div class="partner__item--body">
+                        <div class="partner__item">
+                            <img class="partner__item--img" src="./assets/img/partner-2.png" alt="">
+                            <div class="partner__wrap">
+                                <div class="partner__wrap--first">
+                                    <h4 class="wrap__name">Deniella Rhodes</h4>
+                                    <p class="wrap__des">CEO of Saasmash</p>
+                                </div>
+                                <div class="partner__wrap--second">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a class="pb--20" href=""><i class="fa-brands fa-invision"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                </div>
                             </div>
                         </div>
                     </div>
+                    <div class="partner__item--body">
+                        <div class="partner__item">
+                            <img class="partner__item--img" src="./assets/img/partner-3.png" alt="">
+                            <div class="partner__wrap">
+                                <div class="partner__wrap--first">
+                                    <h4 class="wrap__name">Deniella Rhodes</h4>
+                                    <p class="wrap__des">CEO of Saasmash</p>
+                                </div>
+                                <div class="partner__wrap--second">
+                                    <a href=""><i class="fa-brands fa-facebook"></i></a>
+                                    <a class="pb--20" href=""><i class="fa-brands fa-invision"></i></a>
+                                    <a href=""><i class="fa-brands fa-twitter"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -779,7 +797,7 @@
                 </div>
             </div>
             <div class="footer__root">
-                <p class="footer__root--text">2022 © All rights reserved by QuomodoTheme</p>
+                <p class="footer__root--text">2022 © All rights reserved by Dong</p>
                 <div class="footer__root--privacy">
                     <p class="root__privacy">Privacy policy</p>
                     <p class="root__condition">Terms & Conditions</p>
@@ -817,6 +835,18 @@
             }
         })
 
+    </script>
+
+    <!-- content__screenshot -->
+    <script>
+        function scrolll() {
+            var left = document.querySelector(".screenshot__list");
+            left.scrollBy(267, 0);
+        }
+        function scrollr() {
+            var right = document.querySelector(".screenshot__list");
+            right.scrollBy(-267, 0);
+        }
     </script>
 
 </body>

@@ -20,6 +20,28 @@
     .nav__container {
         right: -260px;
     }
+
+    .shape__img--item2 {
+        right: -15%;
+        bottom: 15%;
+    }
+
+    .shape__img--item3 {
+        left: -12%;
+        bottom: 45px;
+    }
+
+    .tes__shape {
+        padding-left: 60px;
+    }
+
+    .tes__user {
+        padding-right: 60px;
+    }
+
+    .content__down {
+        padding: 112px 60px 98px 60px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1100px) {
@@ -38,6 +60,64 @@
         width: 960px;
     }
 
+    .tes__shape {
+        padding-left: 20px;
+    }
+
+    .tes__user {
+        padding-right: 20px;
+    }
+
+    .shape__img--item1 {
+        top: -22%;
+    }
+
+    .shape__img--item2 {
+        right: -18%;
+        bottom: 14%;
+    }
+
+    .shape__img--item3 {
+        left: -13%;
+        bottom: 6px;
+    }
+
+    .price__item--popular {
+        margin-left: 40px;
+    }
+}
+
+@media (max-width: 1100px) {
+    .content__down {
+        display: block;
+        text-align: center;
+        padding: 0;
+    }
+
+    .down__body {
+        width: 100%;
+        padding: 76px 100px;
+        margin: 0;   
+    }
+
+    .down__text {
+        font-size: 18px;
+        text-align: center;
+    }
+    .down__header {
+        text-align: center;
+        line-height: 52px;
+        font-size: 36px;
+    }
+    
+    .down__click {
+        display: flex;
+        justify-content: center;
+    }
+
+    .down__image{
+        padding-bottom: 76px;
+    }
 }
 
 @media (min-width: 992px) and (max-width: 1200px) {
@@ -193,7 +273,65 @@
     .experience__tick {
         justify-content: center;
     }
+    
+    .screenshot__body {
+        padding: 0 40px;
+        display: block;
+    }
 
+    .screenshot__btn {
+        display: none;
+    }
+
+    .content__tes {
+        display: block;
+        /* text-align: center; */
+    }
+
+    .tes__shape {
+        width: 100%;
+        padding: 0;
+        display: block;
+    }
+    
+    .tes__user {
+        margin-top: 80px;
+        width: 100%;
+        padding-right: 0;
+        display: block;
+    }
+
+    .tes__header,
+    .tes__subhead {
+        text-align: center;
+    }
+
+    .shape__img--item2 {
+        right: 4%;
+    }
+
+    .tab__pane {
+        padding: 0 20px;
+    }
+
+    .pane__content {
+        margin-top: 10px;
+    }
+
+    .pane__font {
+        margin-right: 200px;
+    }
+
+    .tabs {
+        margin-left: 50px;
+        margin-top: 20px;
+        border-bottom: 8px;
+    }
+
+    .price__item--popular {
+        margin-left: 25px;
+    }
+}
 @media (max-width: 767px) {
     #header {
         background-position: 39% 0;
@@ -262,6 +400,18 @@
     .experience__tick--2 {
         padding-left: 0;
     }
+
+    .content__screenshot {
+        display: none;
+    }
+
+    .content__price--body {
+        margin: 0 30px !important;
+    }
+
+    .down__body {
+        padding: 76px 20px;
+    }
 }
 
 @media (max-width: 400px) {
@@ -289,5 +439,44 @@
 
     .slider__create--header {
         line-height: 70px;
+    }
+
+    .down__click {
+        display: block;
+    }
+
+    .down__btn--1 {
+    }
+
+    .down__btn--2 {
+        display: block; 
+        margin-left: 90px;
+        padding: 21px 29px 16px 29px;
+        margin-top: 18px;
+    }
+}
+
+@media (max-width: 820px) {
+    .content__price--body {
+        display: block;
+        margin: 0 100px;
+
+    }
+
+    .price__item {
+        margin: 0;
+        width: 100%;
+    }
+
+    .content__price--res {
+        margin-bottom: 50px;
+    }
+
+    .price__item--btn {
+        margin-bottom: 46px;
+    }
+
+    .price__item--popular {
+        margin-left: 145px;
     }
 }
