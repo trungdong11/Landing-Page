@@ -123,7 +123,18 @@
 @media (min-width: 992px) and (max-width: 1200px) {
     .header__content {
         padding: 160px 8px 300px 8px;
-        
+    }
+
+    .screenshot__body {
+        padding: 0 80px;
+    }
+
+    .screenshot__btn--left {
+        left: 40px;
+    }
+
+    .screenshot__btn--right {
+        right: 40px;
     }
 }
 
@@ -331,6 +342,42 @@
     .price__item--popular {
         margin-left: 25px;
     }
+
+    .footer__container {
+        padding: 110px 40px 105px 40px;
+        justify-content: space-between;
+    }
+
+    .footer__res--1,
+    .footer__res--2 {
+        display: block;
+    }
+
+    .footer__res--1 {
+        flex: 2;
+    }
+
+    .footer__res--2 {
+        flex: 1;
+        /* padding-left: 100px; */
+    }
+
+    .footer__logo {
+        /* padding: 0 100px 0 10px; */
+        width: 400px;
+        margin-bottom: 20px;
+    }
+
+    .footer__contact {
+        margin-top: 20px;
+    }
+
+    .footer__contact--btn,
+    .footer__contact--input {
+        width: 240px;
+    }
+
+
 }
 @media (max-width: 767px) {
     #header {
@@ -412,6 +459,56 @@
     .down__body {
         padding: 76px 20px;
     }
+
+    .new__body {
+        display: block;
+    }
+
+    .new__item {
+        width: 100%;
+        padding: 0 16px;
+    }
+
+    .mt__40 {
+        margin-top: 40px;
+    }
+
+    .footer__container {
+        display: block;
+        text-align: center;
+
+    }
+
+    .footer__logo {
+        padding: 0;
+        margin: 0;
+        width: 100%;
+    }
+
+    .footer__link {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        margin-top: 36px;
+    }
+
+    .footer__link--item {
+        display: block;
+    }
+
+    .footer__contact--btn,
+    .footer__contact--input {
+        display: block;
+        width: 100%;
+    }
+
+    .footer__root {
+        padding: 28px 40px;
+    }
+
+    .footer__root--privacy {
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {
@@ -479,4 +576,18 @@
     .price__item--popular {
         margin-left: 145px;
     }
+
+    .partner__item--body-1,
+    .partner__item--body-2 {
+        display: none;
+    }
+
 }
+
+@media(min-width: 820px) and (max-width: 1200px) {
+    .partner__item--body-1 {
+        display: none;
+    }
+}
+
+
